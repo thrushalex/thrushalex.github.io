@@ -18,12 +18,13 @@ body {
 
 .header{
     color: blue;
-    font-size: x-large;
+    font-size: 200%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .titleTextContainer{
     flex: auto;
+    font-size: 100%;
 }
 
 .row {
@@ -43,3 +44,27 @@ body {
     font-size: 150%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.topnav {
+    background-color: #333;
+    overflow:hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
