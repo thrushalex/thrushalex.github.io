@@ -1,6 +1,13 @@
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
+    display: table-cell;
+    vertical-align: middle;
     background-color: grey;
-  }
+}
 
 .outer_container{
     flex: content;
