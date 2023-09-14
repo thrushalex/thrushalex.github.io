@@ -7,6 +7,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .outer_container{
@@ -17,9 +18,8 @@ body {
 }
 
 .header{
-    color: blue;
+    color: lightskyblue;
     font-size: 200%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .titleTextContainer{
@@ -30,6 +30,10 @@ body {
 .row {
     display: flex;
   }
+
+.col {
+  padding-right: 20px;
+}
   
 .columnLeft {
     flex: 70%;
@@ -44,8 +48,12 @@ body {
 .headline{
     color: lightblue;
     font-size: 150%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+
+.positionTitle{
+  font-size: 125%;
+  color: blue;
 }
 
 .topnav {
