@@ -5,14 +5,15 @@ function convertAddress() {
     for (let i = 0; i < toRemove.length; i++) {
         address = address.replaceAll(toRemove[i], '')
     }
-    document.getElementById("emailDiv").innerHTML=address;
+    return address
 }
 
-function myFunction() {
-    var x = document.getElementById("emailDiv");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+function displayAddress() {
+    var emailDiv = document.getElementById("emailDiv");
+    var emailButton = document.getElementById("emailButton");
+    emailDiv.innerHTML=convertAddress();
+    if (emailDiv.style.display === "none") {
+      emailDiv.style.display = "block";
+      emailButton.style.display = "none";
     }
   }
