@@ -28,6 +28,11 @@ body {
     font-size: 100%;
 }
 
+#careerObjective{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .row {
     display: flex;
   }
