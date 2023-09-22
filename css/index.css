@@ -6,7 +6,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-color: grey;
+    /* background-color:#D8DDEF; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .header{
-    color: lightskyblue;
+    /* color: #7293A0; */
     font-size: 200%;
 }
 
@@ -46,14 +46,14 @@ body {
 }
 
 .headline{
-    color: lightblue;
+    /* color: lightblue; */
     font-size: 150%;
     font-weight: bold;
 }
 
 .positionTitle{
   font-size: 125%;
-  color: blue;
+  /* color: blue; */
 }
 
 .topnav {
